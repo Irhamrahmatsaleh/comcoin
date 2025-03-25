@@ -1,0 +1,10 @@
+{
+    "1AGpT1i2KAUjjYHv3g2S1yv5hLFuQt5b8q": {
+        "private_key": "094c01bbd4f1938873bb165e62fa005f369639657a4f52bc573e197bda51a84a",
+        "public_key": "7e3bae522fd8cdfb567c6012dca0af71a8ede6e1627aa5fdfd3f35816ef275cd7f33f1fb9e4eb9ec7f71032b1acf72855358454c83844d52e742f62bf855a738"
+    },
+    "1MF1t7aNGmFQ8mQ9D7wQCiL9upvAjnGaH5": {
+        "private_key": "c20ef3dd5ecdd2d0656f7e8aaabb5c90e7191cadae8ae8daf750c0c72f15b3e3",
+        "public_key": "62a807d43a6adefc7088144892e8bfd7b61119d339c68b921ace1993381bf7341b244b371ae63af56bff8670a1f233dd6b376cda98bdff480a28ca6120cd2ce6"
+    }
+}
