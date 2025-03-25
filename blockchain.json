@@ -1,50 +1,71 @@
 [
     {
         "index": 0,
-        "timestamp": 1742894582,
+        "timestamp": 1742905071,
         "data": "Genesis Block",
         "previous_hash": "0",
         "nonce": 0,
-        "hash": "a46a922a18eaac98d309022728da631df95b1a46ca4a6d903e3c9b68c0c7b920"
+        "hash": "328870a011a715cb6e861d562bf3ff6a65b0662459e0f19a9517a8f578c2a722",
+        "transactions": []
     },
     {
         "index": 1,
-        "timestamp": 1742894582,
-        "data": "Block #1 data",
-        "previous_hash": "a46a922a18eaac98d309022728da631df95b1a46ca4a6d903e3c9b68c0c7b920",
-        "nonce": 183596,
-        "hash": "00001d58475e908d1502a9ca0a03da4676f83c39074e7aa80ed10d3455897421"
+        "timestamp": 1742905118,
+        "data": "Reward block",
+        "previous_hash": "328870a011a715cb6e861d562bf3ff6a65b0662459e0f19a9517a8f578c2a722",
+        "nonce": 197623,
+        "hash": "0000aaf101f961794301561a2fa0702c97c66b16f3d506d3a05319501142d149",
+        "transactions": [
+            {
+                "sender": "SYSTEM",
+                "recipient": "1AGpT1i2KAUjjYHv3g2S1yv5hLFuQt5b8q",
+                "amount": 50,
+                "signature": null
+            }
+        ]
     },
     {
         "index": 2,
-        "timestamp": 1742894582,
-        "data": "Block #2 data",
-        "previous_hash": "00001d58475e908d1502a9ca0a03da4676f83c39074e7aa80ed10d3455897421",
-        "nonce": 42962,
-        "hash": "0000c38cd051d84201fbf22aeb760b2fe477a690860e0f88bc180db8a59b50c5"
+        "timestamp": 1742905443,
+        "data": "Block with transaction",
+        "previous_hash": "0000aaf101f961794301561a2fa0702c97c66b16f3d506d3a05319501142d149",
+        "nonce": 24669,
+        "hash": "00000ae59755e95a37c5e07676996ebab617fc47d6f6accd74c85a875ec19368",
+        "transactions": [
+            {
+                "sender": "SYSTEM",
+                "recipient": "1AGpT1i2KAUjjYHv3g2S1yv5hLFuQt5b8q",
+                "amount": 50,
+                "signature": null
+            },
+            {
+                "sender": "1AGpT1i2KAUjjYHv3g2S1yv5hLFuQt5b8q",
+                "recipient": "1MF1t7aNGmFQ8mQ9D7wQCiL9upvAjnGaH5",
+                "amount": 25,
+                "signature": "fc29da388677a9d5a023372a3fd967e6203dfb4b4050d37a7aabc33824a33054aa497bbfbacd3694eabb2b0c9b844f75c94e70bb9c8dabb5086b29a5660b0f11"
+            }
+        ]
     },
     {
         "index": 3,
-        "timestamp": 1742894582,
-        "data": "Block #3 data",
-        "previous_hash": "0000c38cd051d84201fbf22aeb760b2fe477a690860e0f88bc180db8a59b50c5",
-        "nonce": 114729,
-        "hash": "000087a1e695477c5e32ff8a59d3883f070e6c95c97d32155c8b6b71ce377edf"
-    },
-    {
-        "index": 4,
-        "timestamp": 1742894582,
-        "data": "Block #4 data",
-        "previous_hash": "000087a1e695477c5e32ff8a59d3883f070e6c95c97d32155c8b6b71ce377edf",
-        "nonce": 4458,
-        "hash": "00005dce94427e2d54caf1d31e861ff560cfd7a50f9364a534af6837bf50c99b"
-    },
-    {
-        "index": 5,
-        "timestamp": 1742894582,
-        "data": "Block #5 data",
-        "previous_hash": "00005dce94427e2d54caf1d31e861ff560cfd7a50f9364a534af6837bf50c99b",
-        "nonce": 14371,
-        "hash": "000042be839527ea30cb6325e30bb1268980615a3bc490fdab09932472470454"
+        "timestamp": 1742905837,
+        "data": "Block with transaction",
+        "previous_hash": "00000ae59755e95a37c5e07676996ebab617fc47d6f6accd74c85a875ec19368",
+        "nonce": 3613,
+        "hash": "0000489e539f79bc07d566c5d07ba257eca54b628bb9acbf4f23824b62172b9b",
+        "transactions": [
+            {
+                "sender": "SYSTEM",
+                "recipient": "1AGpT1i2KAUjjYHv3g2S1yv5hLFuQt5b8q",
+                "amount": 50,
+                "signature": null
+            },
+            {
+                "sender": "1MF1t7aNGmFQ8mQ9D7wQCiL9upvAjnGaH5",
+                "recipient": "1AGpT1i2KAUjjYHv3g2S1yv5hLFuQt5b8q",
+                "amount": 15,
+                "signature": "50d9a5340b951d19b1b2169a100ac145f658288028f6fed14a9fe53e845b83e90adae9a5b9dabb5d6af12ca49e3f4c23af84f78c81cb692d89573cb5998f0c9e"
+            }
+        ]
     }
 ]
